@@ -1,0 +1,26 @@
+name: LgMc
+version: '1.0-SNAPSHOT'
+main: fr.fanto.lgmc.Main
+api-version: 1.19
+authors: [ FantoCat ]
+description: Un loup garou rpg sur minecraft
+commands:
+  lg:
+    description: menu loup
+    aliases: [lg]
+  start:
+    description: démmarage du plugin
+    permission: start.op
+    aliases: [start]
+  ch:
+    description: menu Chasseur
+  cu:
+    description: menu Cupidon
+  pf:
+    description: menu PetiteFille
+  so:
+    description: menu Sorcière
+  vo:
+    description: menu Voyante
+  co:
+    description: chat couple

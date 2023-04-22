@@ -1,0 +1,36 @@
+name: MonsterIndustries1_19
+version: '${project.version}'
+main: fr.fanto.monsterindustries.MonsterIndustriesGame
+api-version: 1.19
+authors: [ FantoCat ]
+description: Monster Industries but in plud in
+commands:
+  start:
+    description: démmarage du plugin
+    permission: start.op
+    aliases: [start]
+  pause:
+    description: pause de la partie
+    permission: pause.op
+    aliases: [ps, pau]
+  restart:
+    description: restart de la partie
+    permission: restart.op
+    aliases: [re, rt]
+  random:
+    description: random des teams
+    permission: random.op
+    aliases: [rd, rdm, rand]
+  create:
+    description: create map
+    permission: create.op
+  load:
+    description: load map
+    permission: load.op
+    aliases: [ld]
+  save:
+    description: save map
+    permission: save.op
+  set:
+    description: set un emplacement
+    permission: set.op

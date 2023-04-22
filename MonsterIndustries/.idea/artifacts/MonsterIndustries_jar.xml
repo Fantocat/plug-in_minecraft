@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MonsterIndustries:jar">
+    <output-path>G:/dossier profil/Desktop/serveur/1.19/plugins</output-path>
+    <root id="archive" name="MonsterIndustries.jar">
+      <element id="module-output" name="MonsterIndustries" />
+    </root>
+  </artifact>
+</component>
